@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tiro Gurmukhi';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+}
+
+header img {
+    width: 310px;
+    height: auto;
+    margin-left: 120px;
+}
+
+.site-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul:hover li:not(:hover) a {
+    opacity: 0.2;
+}
+
+ul li {
+    position: relative;
+    padding: 30px 25px 30px 25px;
+    cursor: pointer;
+}
+
+ul li::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #c19e2d;
+    transform: scaleX(0);
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+ul li:hover::after,
+ul li.active::after {
+    transform: scaleX(1);
+}
+
+ul li a {
+    position: relative;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.main-text {
+    width: 100%;
+    height: 450px;
+    background-image: url('../imgs/Group1.png');
+}
+
+.main-text .main-containt{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 180px;
+    right: 110px;
+
+}
+
+.main-text .main-containt .one-text {
+    width: 90%;
+    height: auto;
+    margin: 10px 5%;
+}
+
+.main-text .main-containt .one-text p {
+    font-size: 65px;
+    text-align: center;
+    color: white;
+}
+
+.main-text .main-containt .second-text {
+    width: 90%;
+    height: auto;
+    margin: 0.5px 5%;
+}
+
+.main-text .main-containt .second-text p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.main-text .main-containt .main-button {
+    width: 50%;
+    height: 40px;
+    margin: 0px 25%;
+    padding-left: 5%;
+}
+
+.main-text .main-containt .main-button #btn {
+    width: 260px;
+    height: 45px;
+    font-size: 27px;
+    margin-top: 20px;
+    color: white;
+    background-color: #c19e2d;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.40);
+    border: none;
+    cursor: pointer;
+}
+
+hr {
+    width: 85%;
+    margin: 10px;
+    border: 1px solid #c19e2d;
+    text-align: center;
+}
+
+.separator {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.line-separator {
+    width: 80px;
+    height: 1px;
+    background: #c19e2d;
+    display: inline-block;
+}
+
+.image-separator {
+    width: 28px;
+    height: 20px;
+}
+
+.specialties{
+    width: 100%;
+    height: 400px;
+}
+.specialties .tittle-specialties{
+    margin-top: 12px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.specialties .tittle-specialties .middle-text{
+    color: #c19e2d;
+}
+
+.specialties .container-specialties{
+    margin-top: 0px;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+}
+
+.container-specialties .container-1{
+    margin: 50px 20px 80px 58px;
+    width: 18%;
+    height: 100px;
+    display: inline-block;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #141414;
+}
+
+footer .contain-contact{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    display: inline-flex;
+}
+
+footer .contain-contact .info-contact,
+footer .contain-contact .info-social{
+    width: 30%;
+    height: 150px;
+    padding: 1.5%;
+}
+
+footer .contain-contact .info-location{
+    width: 40%;
+    height: 160px;
+    padding: 1.5%;
+}
+
+footer .contain-contact h4{
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.info-contact .text-information{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.text-information .cel-phone,
+.text-information .email{
+    color: white;
+}
+
+footer .contain-contact .info-location iframe{
+    width: 90%;
+    margin: 20px 10%;
+    height: 100px;
+}
+
+footer .contain-contact .info-location p{
+    text-align: center;
+}
+
+footer .contain-contact .info-location .addres{
+    color: white;
+}
+
+footer .contain-contact .info-social{
+    color: #c19e2d
+}
+
+footer .contain-contact .info-social .social-media{
+    width: 90%;
+    height: 25px;
+    margin: 30px 5%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    cursor: pointer;
+}
