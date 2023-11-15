@@ -104,7 +104,7 @@ ul li a {
 
 .main-text .main-containt .main-button {
     width: 50%;
-    height: 40px;
+    height: auto;
     margin: 0px 25%;
     padding-left: 5%;
 }
@@ -153,7 +153,7 @@ hr {
 .specialties .tittle-specialties{
     margin-top: 12px;
     width: 100%;
-    height: 50px;
+    height: auto;
     font-size: 30px;
     text-align: center;
 }
@@ -165,14 +165,14 @@ hr {
 .specialties .container-specialties{
     margin-top: 0px;
     width: 100%;
-    height: 350px;
+    height: auto;
     position: absolute;
 }
 
 .container-specialties .container-1{
     margin: 50px 20px 80px 58px;
     width: 18%;
-    height: 100px;
+    height: auto;
     display: inline-block;
 }
 
@@ -247,3 +247,317 @@ footer .contain-contact .info-social .social-media{
     font-size: 22px;
     cursor: pointer;
 }
+
+@media (max-width: 1210px){
+
+    .main-text .main-containt .one-text p {
+        font-size: 60px;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media (max-width: 1110px){
+
+    .main-text .main-containt .one-text p {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+    
+    .container-specialties .container-1{
+        margin: 50px 50px 80px 48px;
+        width: 15%;
+        height: auto;
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 1000px){
+    
+    .container-specialties .container-1{
+        margin: 40px 50px 33px 48px;
+        width: 12%;
+        height: auto;
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 950px){
+    
+    .specialties .container-specialties .container-1 img{
+        width: 190px;
+        height: 250px;
+    }
+
+    footer .contain-contact h4{
+        margin-top: 40px;
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+
+    .info-contact .text-information{
+        margin-top: 8%;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 930px){
+
+    .main-text .main-containt .one-text p {
+        font-size: 48px;
+        text-align: center;
+        color: white;
+    }
+
+    .main-text .main-containt .second-text p {
+        font-size: 25px;
+        text-align: center;
+        color: white;
+    }
+
+    footer .contain-contact .info-social .social-media{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    header img {
+        width: 300px;
+        height: auto;
+        margin-left: 80px;
+    }
+
+    .info-contact .text-information{
+        font-size: 15px;
+    }
+
+    .main-text .main-containt{
+        width: 58%;
+        height: auto;
+        position: absolute;
+        top: 160px;
+        right: 100px;
+    
+    }
+
+    .main-text .main-containt .one-text p {
+        font-size: 45px;
+        text-align: center;
+        color: white;
+    }
+
+    .main-text .main-containt .second-text p {
+        font-size: 23px;
+        text-align: center;
+        color: white;
+    }
+
+    .main-text .main-containt .main-button #btn {
+        width: 238px;
+        height: 42px;
+        font-size: 24px;
+    }
+
+    .specialties .tittle-specialties{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 850px){
+
+    .info-contact .text-information{
+        font-size: 14px;
+    }
+
+    header img {
+        margin-left: 58px;
+    }
+}
+
+@media (max-width: 800px){
+
+    .container-specialties .container-1{
+        margin: 50px 50px 80px 42px;
+    }
+
+    .specialties .container-specialties .container-1 img{
+        width: 170px;
+        height: 230px;
+    }
+
+    header img {
+        margin-left: 15px;
+    }
+
+    header {
+        justify-content: flex-end;
+    }
+    
+}
+
+@media (max-width: 750px){
+
+    header img {
+        width: 200px;
+        height: auto;
+    }
+
+    ul {
+       font-size: 15px;
+    }
+
+    .specialties .container-specialties .container-1 img{
+        width: 130px;
+        height: 210px;
+    }
+
+    .specialties .tittle-specialties{
+        font-size: 24px;
+    }
+
+    .container-specialties .container-1{
+        margin: 60px 35px 35px 33px;
+        width: 15%;
+    }
+
+    .info-contact .text-information{
+        font-size: 12px;
+    }
+
+    footer .contain-contact .info-social .social-media{
+        font-size: 17px;
+    }
+
+    footer .contain-contact .info-location p{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 700px){
+
+    .main-text .main-containt .one-text p {
+        font-size: 41px;
+        text-align: center;
+        color: white;
+    }
+
+    .main-text .main-containt .second-text p {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .main-text .main-containt .main-button #btn {
+        width: 234px;
+        height: 38px;
+        font-size: 20px;
+    }
+
+    .main-text {
+        height: 400px;
+    }
+
+    .main-text .main-containt .main-button {
+        margin: 0px 20%;
+    }
+
+    .specialties .container-specialties .container-1 img{
+        width: 120px;
+        height: 190px;
+    }
+
+    .container-specialties .container-1{
+        margin: 40px 15px 50px 42px;
+    }
+
+    .specialties{
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .main-text .main-containt .main-button {
+        margin: 0px 15%;
+    }
+
+    .container-specialties .container-1{
+        margin: 40px 15px 50px 35px;
+    }
+
+    .specialties .container-specialties .container-1 img{
+        width: 105px;
+        height: 175px;
+    }
+
+    .specialties .tittle-specialties{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px){
+
+    header img {
+        width: 150px;
+        height: auto;
+    }
+
+    ul {
+       font-size: 10px;
+    }
+
+    .main-text .main-containt{
+        width: 55%;
+        top: 120px;
+        right: 70px;
+    }
+
+    .main-text .main-containt .one-text p {
+        font-size: 39px;
+    }
+
+    .main-text .main-containt .second-text p {
+        font-size: 15px;
+    }
+
+    .main-text .main-containt .main-button {
+        margin: 0px 10%;
+    }
+
+    .main-text .main-containt .main-button #btn {
+        width: 228px;
+        height: 33px;
+        font-size: 20px;
+    }
+
+    .container-specialties .container-1{
+        margin: 40px 15px 50px 28px;
+    }
+
+    footer .contain-contact h4{
+        margin-top: 28px;
+        font-size: 15px;
+    }
+
+    .info-contact .text-information{
+        font-size: 9px;
+    }
+
+    footer .contain-contact .info-social .social-media{
+        font-size: 14px;
+    }
+
+
+    
+
+}
+
